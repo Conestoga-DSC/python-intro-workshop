@@ -17,3 +17,19 @@ You should already have Python installed: try running `python` or `python3` in y
 ## Launching Programs
 
 The general pattern is `python pythonFile.py`.
+
+### Django
+
+Follow [this](https://docs.djangoproject.com/en/3.1/topics/install/#installing-distribution-package) tutorial to download django.
+
+Run the project:
+1. `cd djangoSample`
+2. `python manage.py runserver`
+
+### Jupyter
+
+- Install Jupyter Notebook with `pip install notebook`
+
+Run the notebook:
+1. `cd jupyterSample`
+2. `jupyter notebook`
