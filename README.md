@@ -28,8 +28,12 @@ Run the project:
 
 ### Jupyter
 
-- Install Jupyter Notebook with `pip install notebook`
+Install Jupyter Notebook with `pip install notebook`
 
 Run the notebook:
 1. `cd jupyterSample`
 2. `jupyter notebook`
+
+## Slides
+
+The presentation slides can be found [here](https://docs.google.com/presentation/d/1qC9Xdki9Wm_MhbLXiCbL16J0KuetuUpH_bJd72t4-64/edit?usp=sharing)
