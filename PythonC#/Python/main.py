@@ -21,8 +21,8 @@ if __name__ == "__main__":
     l2 = [i * 2 for i in range(10)]
     print(l2)
 
-    print(l[-1])
-    print(l[1:3])
+    print("Last element:", l2[-1])
+    print("2nd and 3rd element:", l2[1:3])
 
     # if, for, while
     cnt = -1
@@ -45,5 +45,5 @@ if __name__ == "__main__":
     print(add(1, 2))
     print(add("spam", "eggs"))
 
-    print(sub(5, 6))
+    print(sub(145, 89))
     print(sub("spam", "eggs"))

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/andr/Code/dsc/intro-to-python/PythonC#/C#/PythonC#.csproj": {}
+    "/Users/adenysenko/Code/python-intro-workshop/PythonC#/C#/PythonC#.csproj": {}
   },
   "projects": {
-    "/home/andr/Code/dsc/intro-to-python/PythonC#/C#/PythonC#.csproj": {
+    "/Users/adenysenko/Code/python-intro-workshop/PythonC#/C#/PythonC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/andr/Code/dsc/intro-to-python/PythonC#/C#/PythonC#.csproj",
+        "projectUniqueName": "/Users/adenysenko/Code/python-intro-workshop/PythonC#/C#/PythonC#.csproj",
         "projectName": "PythonC#",
-        "projectPath": "/home/andr/Code/dsc/intro-to-python/PythonC#/C#/PythonC#.csproj",
-        "packagesPath": "/home/andr/.nuget/packages/",
-        "outputPath": "/home/andr/Code/dsc/intro-to-python/PythonC#/C#/obj/",
+        "projectPath": "/Users/adenysenko/Code/python-intro-workshop/PythonC#/C#/PythonC#.csproj",
+        "packagesPath": "/Users/adenysenko/.nuget/packages/",
+        "outputPath": "/Users/adenysenko/Code/python-intro-workshop/PythonC#/C#/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/andr/.nuget/NuGet/NuGet.Config"
+          "/Users/adenysenko/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/107/sdk/5.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

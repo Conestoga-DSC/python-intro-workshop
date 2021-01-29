@@ -29,12 +29,12 @@ namespace PythonC_
 
             string b = "hello DSC!";
 
-            List<int> l = new List<int> { 1, 2, 3 };
+            List<int> list = new List<int> { 1, 2, 3 };
 
             Dictionary<string, string> d = new Dictionary<string, string>
             {
-                "key" = "value",
-                "key2" = "value2"
+                ["key"]= "value",
+                ["key2"] = "value2"
             };
 
             // lists
@@ -49,7 +49,11 @@ namespace PythonC_
 
             l2 = Enumerable.Range(0, 10).Select(num => num * 2).ToList();
 
-            Console.WriteLine(l2);
+            l2.ForEach(e => Console.Write($"{e}, "));
+            Console.WriteLine();
+
+            Console.WriteLine($"Last element: {l2.Last()}");
+            Console.WriteLine($"2nd and 3rd element: {string.Join(',', l2.GetRange(1, 2))}");
 
             // if, for, while
 
@@ -72,7 +76,7 @@ namespace PythonC_
                 Console.WriteLine(i);
             }
 
-            int cnt = 0;
+            cnt = 0;
             while (cnt < 10)
             {
                 cnt++;
